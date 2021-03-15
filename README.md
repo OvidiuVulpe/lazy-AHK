@@ -1,6 +1,6 @@
 # lazy-AHK
 
-[AutoHotkey](https://www.autohotkey.com/) script that reduces the need for your right hand to reach for the arrow keys by changing the keyboard layout while holding down Capslock, plus a few extra macros and shortcuts.
+[AutoHotkey](https://www.autohotkey.com/) script that reduces the need for your right hand to move away from the default touch typing position by changing the keyboard layout while holding down Capslock, plus a few extra macros and shortcuts.
 
 Activating the script will turn off the normal function of Capslock.
 
