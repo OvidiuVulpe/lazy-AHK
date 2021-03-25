@@ -36,26 +36,18 @@ Capslock + p = plus sign
 
 Capslock + e = equals sign
 
-Capslock + c = (Ctrl+L + Ctrl+C) [
-
-In VSC = select and copy line of code
-  
-In browser = focus and copy address bar
-  
+Capslock + c = (Ctrl+L + Ctrl+C) [  
+In VSC = select and copy line of code    
+In browser = focus and copy address bar    
 ]
 
-Capslock + x = (Ctrl+L + Ctrl+X) [
-
-In VSC = select and cut line of code
-
+Capslock + x = (Ctrl+L + Ctrl+X) [  
+In VSC = select and cut line of code  
 ]
 
-Capslock + v = (Ctrl+L + Ctrl+V) [
-
-In VSC = select and paste line of code (replace line of code with what you have stored in your clipboard)
-
-In browser = focus and paste into adress bar
-
+Capslock + v = (Ctrl+L + Ctrl+V) [  
+In VSC = select and paste line of code (replace line of code with what you have stored in your clipboard)  
+In browser = focus and paste into adress bar  
 ]
 
 Capslock + f = (Ctrl+F + Ctrl+V) Open search bar and paste data from clipboard into it
