@@ -71,8 +71,3 @@ Send ^f
 sleep, 100
 Send ^v
 Return
-
-Capslock & a::
-SetKeyDelay, 500
-Send, {=}{>}{Space}{{}{}}
-Return
