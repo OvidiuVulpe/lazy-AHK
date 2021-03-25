@@ -39,15 +39,40 @@ Capslock & ' up::SendInput {Blind}{PgDn Up}
 
 
 
-
-
 Capslock & d::SendInput {Del Down}
 Capslock & s::SendInput {BS Down}
 Capslock & m::SendInput {-}
 Capslock & p::SendInput {+}
 Capslock & e::SendInput {=}
-Capslock & c::send ^l^c
-Capslock & x::send ^l^x
 
 
 
+
+Capslock & c::
+Send ^l
+sleep, 100
+Send ^c
+Return
+
+Capslock & x::
+Send ^l
+sleep, 100
+Send ^x
+Return
+
+Capslock & v::
+Send ^l
+sleep, 100
+Send ^v
+Return
+
+Capslock & f::
+Send ^f
+sleep, 100
+Send ^v
+Return
+
+Capslock & a::
+SetKeyDelay, 500
+Send, {=}{>}{Space}{{}{}}
+Return
