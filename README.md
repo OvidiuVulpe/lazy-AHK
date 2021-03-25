@@ -1,6 +1,6 @@
 # lazy-AHK
 
-[AutoHotkey](https://www.autohotkey.com/) script that reduces the need for your right hand to move away from the default touch typing position by changing the keyboard layout while holding down Capslock, plus a few extra macros and shortcuts. Mostly usefull for global navigation (outside your code editor) or 60% layout keyboards.
+[AutoHotkey](https://www.autohotkey.com/) script that reduces the need for your right hand to move away from the default touch typing position by changing the keyboard layout while holding down Capslock, plus a few extra macros and shortcuts. Mostly usefull for global navigation (outside your code editor) or 60% keyboards if you don't like using FN key.
 
 Activating the script will turn off the normal function of Capslock.
 
