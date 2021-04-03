@@ -50,4 +50,4 @@ In VSC = select and paste line of code on cursor location (replace line of code 
 In browser = focus and paste into adress bar  
 ]
 
-Capslock + f = (Ctrl+F + Ctrl+V) Open search bar and paste data from clipboard into it
+Capslock + f = (Ctrl+C + Ctrl+F + Ctrl+V) Open search bar and paste highlighted word into it
