@@ -66,10 +66,7 @@ sleep, 100
 Send ^v
 Return
 
-Capslock & f::
-Send ^c
-sleep, 100
-Send ^f
-sleep, 100
-Send ^v
+Capslock & a::
+SetKeyDelay, 500
+Send, {=}{>}{Space}
 Return
