@@ -43,6 +43,7 @@ In browser = focus and copy address bar
 
 Capslock + x = (Ctrl+L + Ctrl+X) [  
 In VSC = select and cut line of code on cursor location  
+Also useful for removing lines of code
 ]
 
 Capslock + v = (Ctrl+L + Ctrl+V) [  
