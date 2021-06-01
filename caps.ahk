@@ -70,3 +70,11 @@ Capslock & a::
 SetKeyDelay, 500
 Send, {=}{>}{Space}
 Return
+
+Capslock & w::
+SendInput ^{Left}
+sleep, 100
+SendInput +^{Right}
+sleep, 100
+SendInput ^c
+Return
