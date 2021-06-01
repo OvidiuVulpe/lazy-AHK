@@ -52,3 +52,5 @@ In browser = focus and paste into adress bar
 ]
 
 Capslock + a = =>
+
+Capslock + w = ((Ctrl+Left) + (Ctrl+Shift+Right) + (Ctrl+C)) Select and copy word on cursor location
