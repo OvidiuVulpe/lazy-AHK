@@ -1,4 +1,4 @@
-﻿#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
+#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
 ; #Warn  ; Enable warnings to assist with detecting common errors.
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
@@ -6,23 +6,23 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
 SetCapsLockState, AlwaysOff
 
-Capslock & j::Send {Blind}{Left DownTemp}
-Capslock & j up::Send {Blind}{Left Up}
+Capslock & j::SendInput {Blind}{Left DownTemp}
+Capslock & j up::SendInput {Blind}{Left Up}
 
-Capslock & k::Send {Blind}{Down DownTemp}
-Capslock & k up::Send {Blind}{Down Up}
+Capslock & k::SendInput {Blind}{Down DownTemp}
+Capslock & k up::SendInput {Blind}{Down Up}
 
-Capslock & i::Send {Blind}{Up DownTemp}
-Capslock & i up::Send {Blind}{Up Up}
+Capslock & i::SendInput {Blind}{Up DownTemp}
+Capslock & i up::SendInput {Blind}{Up Up}
 
-Capslock & l::Send {Blind}{Right DownTemp}
-Capslock & l up::Send {Blind}{Right Up}
+Capslock & l::SendInput {Blind}{Right DownTemp}
+Capslock & l up::SendInput {Blind}{Right Up}
 
-Capslock & h::Send {Blind}^{Left DownTemp}
-Capslock & h up::Send {Blind}{Left Up}
+Capslock & h::SendInput {Blind}^{Left DownTemp}
+Capslock & h up::SendInput {Blind}{Left Up}
 
-Capslock & `;::Send {Blind}^{Right DownTemp}
-Capslock & `; up::Send {Blind}{Right Up}
+Capslock & `;::SendInput {Blind}^{Right DownTemp}
+Capslock & `; up::SendInput {Blind}{Right Up}
 
 Capslock & u::SendInput {Blind}{Home Down}
 Capslock & u up::SendInput {Blind}{Home Up}
@@ -38,7 +38,6 @@ Capslock & ' up::SendInput {Blind}{PgDn Up}
 
 
 
-
 Capslock & d::SendInput {Del Down}
 Capslock & s::SendInput {BS Down}
 Capslock & m::SendInput {-}
@@ -49,21 +48,21 @@ Capslock & e::SendInput {=}
 
 
 Capslock & c::
-Send ^l
+SendInput ^l
 sleep, 100
-Send ^c
+SendInput ^c
 Return
 
 Capslock & x::
-Send ^l
+SendInput ^l
 sleep, 100
-Send ^x
+SendInput ^x
 Return
 
 Capslock & v::
-Send ^l
+SendInput ^l
 sleep, 100
-Send ^v
+SendInput ^v
 Return
 
 Capslock & a::
@@ -78,3 +77,5 @@ SendInput +^{Right}
 sleep, 100
 SendInput ^c
 Return
+
+
