@@ -37,20 +37,20 @@ Capslock + p = plus sign
 Capslock + e = equals sign
 
 Capslock + c = (Ctrl+L + Ctrl+C) [  
-In VSC = select and copy line of code on cursor location    
+In VSC = select and copy line of code on text cursor location    
 In browser = focus and copy address bar    
 ]
 
 Capslock + x = (Ctrl+L + Ctrl+X) [  
-In VSC = select and cut line of code on cursor location  
+In VSC = select and cut line of code on text cursor location  
 Also useful for removing lines of code
 ]
 
 Capslock + v = (Ctrl+L + Ctrl+V) [  
-In VSC = select and paste line of code on cursor location (replace line of code with what you have stored in your clipboard)  
+In VSC = select and paste line of code on text cursor location (replace line of code with what you have stored in your clipboard)  
 In browser = focus and paste into adress bar  
 ]
 
 Capslock + a = =>
 
-Capslock + w = ((Ctrl+Left) + (Ctrl+Shift+Right) + (Ctrl+C)) Select and copy word on cursor location
+Capslock + w = ((Ctrl+Left) + (Ctrl+Shift+Right) + (Ctrl+C)) Select and copy word on text cursor location
