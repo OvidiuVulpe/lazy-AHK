@@ -40,9 +40,7 @@ Capslock & ' up::SendInput {Blind}{PgDn Up}
 
 Capslock & d::SendInput {Del Down}
 Capslock & s::SendInput {BS Down}
-Capslock & m::SendInput {-}
-Capslock & p::SendInput {+}
-Capslock & e::SendInput {=}
+Capslock & e::SendInput {Esc}
 
 
 
