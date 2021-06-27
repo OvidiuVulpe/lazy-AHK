@@ -30,11 +30,7 @@ Capslock + d = Delete
 
 Capslock + s = Backspace
 
-Capslock + m = minus sign
-
-Capslock + p = plus sign
-
-Capslock + e = equals sign
+Capslock + e = ESC
 
 Capslock + c = (Ctrl+L + Ctrl+C) [  
 In VSC = select and copy line of code on text cursor location    
