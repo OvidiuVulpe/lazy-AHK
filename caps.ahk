@@ -27,4 +27,4 @@ SetCapsLockState, AlwaysOff
 
     w::Send ^{Left}^+{Right}^c
     r::Send ^{Left}^+{Right}^v
-	  s::Send ^c:w
+    s::Send ^c:w
