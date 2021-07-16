@@ -1,6 +1,6 @@
 # lazy-AHK
 
-[AutoHotkey](https://www.autohotkey.com/) script that reduces the need for your right hand to move away from the default touch typing position by changing the keyboard layout while holding down Capslock, plus a few extra macros and shortcuts. Mostly usefull for global navigation or 60% layout keyboards if you don't like using the FN key.
+[AutoHotkey](https://www.autohotkey.com/) script (best on QWERTY layout) that reduces the need for your right hand to move away from the default touch typing position by changing the keyboard layout while holding down Capslock, plus a few extra macros and shortcuts. Mostly usefull for global navigation (works anywhere you have a text cursor). The navigation part of the script also works inside vim insert mode.
 
 Activating the script will turn off the normal function of Capslock.
 
@@ -26,27 +26,24 @@ Capslock + \[ = Page Up
 
 Capslock + ' = Page Down
 
-Capslock + d = Delete
-
-Capslock + s = Backspace
-
 Capslock + e = ESC
 
-Capslock + c = (Ctrl+L + Ctrl+C) [  
-In VSC = select and copy line of code on text cursor location    
-In browser = focus and copy address bar    
+Capslock + d = (Home -> Shift + End -> Del) [  
+Delete text from current row
 ]
 
-Capslock + x = (Ctrl+L + Ctrl+X) [  
-In VSC = select and cut line of code on text cursor location  
-Also useful for removing lines of code
+Capslock + c = (Home -> Shift + End -> Ctrl + C) [  
+Copy text from current row
 ]
 
-Capslock + v = (Ctrl+L + Ctrl+V) [  
-In VSC = select and paste line of code on text cursor location (replace line of code with what you have stored in your clipboard)  
-In browser = focus and paste into adress bar  
+Capslock + x = (Home -> Shift + End -> Ctrl + X) [  
+Cut text from current row
 ]
 
-Capslock + a = =>
+Capslock + v = (Home -> Shift + End -> Ctrl + V) [  
+Replace text from current row with what you currently have in your clipboard
+]
 
-Capslock + w = ((Ctrl+Left) + (Ctrl+Shift+Right) + (Ctrl+C)) Select and copy word on text cursor location
+Capslock + w = (Ctrl + Left -> Ctrl + Shift + Right -> Ctrl + C) Select and copy word on text cursor location
+
+Capslock + r = (Ctrl + Left -> Ctrl + Shift + Right -> Ctrl + V) Replace word on text cursor location with what you currently have in your clipboard
