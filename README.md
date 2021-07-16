@@ -28,25 +28,17 @@ Capslock + ' = Page Down
 
 Capslock + e = ESC
 
-Capslock + d = (Home -> Shift + End -> Del) [  
-Delete text from current row
-]
+Capslock + d = (Home -> Shift + End -> Del) Delete text from current row.
 
-Capslock + c = (Home -> Shift + End -> Ctrl + C) [  
-Copy text from current row
-]
+Capslock + c = (Home -> Shift + End -> Ctrl + c) Copy text from current row.
 
-Capslock + x = (Home -> Shift + End -> Ctrl + X) [  
-Cut text from current row
-]
+Capslock + x = (Home -> Shift + End -> Ctrl + x) Cut text from current row.
 
-Capslock + v = (Home -> Shift + End -> Ctrl + V) [  
-Replace text from current row with what you currently have in your clipboard
-]
+Capslock + v = (Home -> Shift + End -> Ctrl + v) Replace text from current row with what you currently have in your clipboard.
 
-Capslock + w = (Ctrl + Left -> Ctrl + Shift + Right -> Ctrl + C) Select and copy word on text cursor location
+Capslock + w = (Ctrl + Left -> Ctrl + Shift + Right -> Ctrl + c) Select and copy word on text cursor location.
 
-Capslock + r = (Ctrl + Left -> Ctrl + Shift + Right -> Ctrl + V) Replace word on text cursor location with what you currently have in your clipboard
+Capslock + r = (Ctrl + Left -> Ctrl + Shift + Right -> Ctrl + v) Replace word on text cursor location with what you currently have in your clipboard.
 
-Capslock + s = (Ctrl + C -> \:w) exit vim insert mode and type the save file command
+Capslock + f = (Ctrl + Left -> Ctrl + Shift + Right -> Ctrl + f) Select and search for word on cursor location.
 
