@@ -11,7 +11,7 @@ SetCapsLockState, AlwaysOff
     l::Right
 
     h::^Left
-    `;::^Right
+    `::^Right
 
     u::Home
     o::End
@@ -27,3 +27,11 @@ SetCapsLockState, AlwaysOff
 
     w::Send ^{Left}^+{Right}^c
     r::Send ^{Left}^+{Right}^v
+	
+#if
+
+Capslock & s::
+Sendinput ^c,
+sleep, 100
+Sendinput :w
+Return
