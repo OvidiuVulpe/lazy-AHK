@@ -80,6 +80,14 @@ sleep, 100
 SendInput ^c
 Return
 
+Capslock & r::
+SendInput ^{Left}
+sleep, 100
+SendInput +^{Right}
+sleep, 100
+SendInput ^v
+Return
+
 
 
 
