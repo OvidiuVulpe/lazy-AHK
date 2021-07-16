@@ -48,5 +48,5 @@ Capslock + w = (Ctrl + Left -> Ctrl + Shift + Right -> Ctrl + C) Select and copy
 
 Capslock + r = (Ctrl + Left -> Ctrl + Shift + Right -> Ctrl + V) Replace word on text cursor location with what you currently have in your clipboard
 
-Capslock + s = (Ctrl + C -> /:w) exit vim insert mode and type the save file command
+Capslock + s = (Ctrl + C -> \:w) exit vim insert mode and type the save file command
 
