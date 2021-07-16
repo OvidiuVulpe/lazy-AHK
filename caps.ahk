@@ -37,35 +37,39 @@ Capslock & '::SendInput {Blind}{PgDn Down}
 Capslock & ' up::SendInput {Blind}{PgDn Up}
 
 
-
-Capslock & d::SendInput {Del Down}
-Capslock & s::SendInput {BS Down}
 Capslock & e::SendInput {Esc}
 
 
-
+Capslock & d::
+SendInput {Home}
+sleep, 100
+SendInput +{End}
+sleep, 100
+SendInput {Del}
+Return
 
 Capslock & c::
-SendInput ^l
+SendInput {Home}
+sleep, 100
+SendInput +{End}
 sleep, 100
 SendInput ^c
 Return
 
 Capslock & x::
-SendInput ^l
+SendInput {Home}
+sleep, 100
+SendInput +{End}
 sleep, 100
 SendInput ^x
 Return
 
 Capslock & v::
-SendInput ^l
+SendInput {Home}
+sleep, 100
+SendInput +{End}
 sleep, 100
 SendInput ^v
-Return
-
-Capslock & a::
-SetKeyDelay, 500
-Send, {=}{>}{Space}
 Return
 
 Capslock & w::
@@ -75,5 +79,7 @@ SendInput +^{Right}
 sleep, 100
 SendInput ^c
 Return
+
+
 
 
