@@ -31,7 +31,10 @@ SetCapsLockState, AlwaysOff
     
 	,::Send {WheelDown}
 	.::Send {WheelUp}
-	/::Send {RButton}
-	m::Send {AppsKey}
+	m::Send {WheelLeft}
+	/::Send {WheelRight}
+	b::Send {RButton}
+	
+	n::Send {AppsKey}
 	
 #if
