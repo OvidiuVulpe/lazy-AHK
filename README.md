@@ -46,6 +46,10 @@ CapsLock + , = Mouse wheel down (Scroll through unfocused window on mouse locati
 
 CapsLock + . = Mouse wheel up
 
-CapsLock + / = Right click on mouse location (might be useful depending on where you leave your mouse).
+CapsLock + m = Mouse wheel left
 
-CapsLock + m = Open app menu of active window.
+CapsLock + / = Mouse wheel right
+
+CapsLock + b = Right click on mouse location (might be useful depending on where you leave your mouse).
+
+CapsLock + n = Open app menu of active window.
