@@ -1,44 +1,51 @@
 # lazy-AHK
 
-[AutoHotkey](https://www.autohotkey.com/) script (best on QWERTY layout) that reduces the need for your right hand to move away from the default touch typing position by changing the keyboard layout while holding down Capslock, plus a few extra macros and shortcuts. Mostly useful for global navigation (works anywhere you have a text cursor). The navigation part of the script also works inside vim insert mode.
+[AutoHotkey](https://www.autohotkey.com/) script (best on QWERTY layout) that reduces the need for your right hand to move away from the default touch typing position by changing the keyboard layout while holding down CapsLock, plus a few extra macros and shortcuts. Mostly useful for global navigation (works anywhere you have a text cursor). The navigation part of the script also works inside vim insert mode.
 
-Activating the script will turn off the normal function of Capslock.
+Activating the script will turn off the normal function of CapsLock.
 
 # List of keys and macros:
 
-Capslock + j = ←
+CapsLock + j = ←
 
-Capslock + k = ↓
+CapsLock + k = ↓
 
-Capslock + l = →
+CapsLock + l = →
 
-Capslock + i = ↑
+CapsLock + i = ↑
 
-Capslock + h = Move cursor left one word
+CapsLock + h = Move cursor left one word.
 
-Capslock + ; = Move cursor right one word
+CapsLock + ; = Move cursor right one word.
 
-Capslock + u = Home
+CapsLock + u = Home
 
-Capslock + o = End
+CapsLock + o = End
 
-Capslock + \[ = Page Up
+CapsLock + \[ = Page Up
 
-Capslock + ' = Page Down
+CapsLock + ' = Page Down
 
-Capslock + e = ESC
+CapsLock + q = Delete
 
-Capslock + d = (Home -> Shift + End -> Del) Delete text from current row.
+CapsLock + e = ESC
 
-Capslock + c = (Home -> Shift + End -> Ctrl + c) Copy text from current row.
+CapsLock + d = (Home -> Shift + End -> Del) Delete text from current row.
 
-Capslock + x = (Home -> Shift + End -> Ctrl + x) Cut text from current row.
+CapsLock + c = (Home -> Shift + End -> Ctrl + c) Copy text from current row.
 
-Capslock + v = (Home -> Shift + End -> Ctrl + v) Replace text from current row with what you currently have in your clipboard.
+CapsLock + x = (Home -> Shift + End -> Ctrl + x) Cut text from current row.
 
-Capslock + w = (Ctrl + Left -> Ctrl + Shift + Right -> Ctrl + c) Select and copy word on text cursor location.
+CapsLock + v = (Home -> Shift + End -> Ctrl + v) Replace text from current row with what you currently have in your clipboard.
 
-Capslock + r = (Ctrl + Left -> Ctrl + Shift + Right -> Ctrl + v) Replace word on text cursor location with what you currently have in your clipboard.
+CapsLock + w = (Ctrl + Left -> Ctrl + Shift + Right -> Ctrl + c) Select and copy word on text cursor location.
 
-Capslock + f = (Ctrl + Left -> Ctrl + Shift + Right -> Ctrl + f) Select and search for word on cursor location.
+CapsLock + r = (Ctrl + Left -> Ctrl + Shift + Right -> Ctrl + v) Replace word on text cursor location with what you currently have in your clipboard.
 
+CapsLock + , = Mouse wheel down (Scroll through unfocused window on mouse location. Useful if you have multiple monitors. Leave your mouse over the window you wish to scroll through(website, document, etc.), use "CapsLock + , or ." to scroll without leaving your current, working window).
+
+CapsLock + . = Mouse wheel up
+
+CapsLock + / = Right click on mouse location (might be useful depending on where you leave your mouse).
+
+CapsLock + m = Open app menu of active window.
