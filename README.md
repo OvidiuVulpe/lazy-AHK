@@ -1,6 +1,6 @@
 # lazy-AHK
 
-[AutoHotkey](https://www.autohotkey.com/) script (best on QWERTY layout) that reduces the need for your right hand to move away from the default touch typing position by changing the keyboard layout while holding down CapsLock, plus a few extra macros and shortcuts. Mostly useful for global navigation (works anywhere you have a text cursor). The navigation part of the script also works inside vim insert mode.
+[AutoHotkey](https://www.autohotkey.com/) script (for QWERTY layout) that reduces the need for your right hand to move away from the default touch typing position by changing the keyboard layout while holding down CapsLock, plus a few extra macros and shortcuts. Mostly useful for text navigation (works anywhere you have a text cursor). The navigation part of the script also works inside vim insert mode.
 
 Activating the script will turn off the normal function of CapsLock.
 
