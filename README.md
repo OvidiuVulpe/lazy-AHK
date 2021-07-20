@@ -4,6 +4,10 @@
 
 Activating the script will turn off the normal function of CapsLock.
 
+# capsV2
+Added an alternate version of the script after running into some bugs (script freezes up, keys get "stuck") with caps.ahk.
+Use this version if you run into similar issues with caps.ahk.
+
 # List of keys and macros:
 
 CapsLock + j = ←
